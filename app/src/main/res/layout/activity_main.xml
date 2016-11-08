@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="增"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="增加一条对象到数据库" />
+
+        <Button
+            android:id="@+id/btn_add_transaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用事务块" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="删"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="删除所有数据(删除指定数据看源码)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="查"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_query_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询全部数据" />
+
+        <Button
+            android:id="@+id/btn_query_where"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="条件查询" />
+
+        <Button
+            android:id="@+id/btn_query_sort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询结果排序" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="改"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="更新数据" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="异步操作"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_add_async"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加一条数据" />
+    </LinearLayout>
+
+
+</ScrollView>
